@@ -90,8 +90,11 @@ All of this is inside emulators (`python3 tests.py`, `python3 mgba_tests.py`).
 | Two levels deep (the emulator as its own guest): `02-interrupts` and `instr_timing` pass in the innermost guest | pass | `02-interrupts` passes |
 | The assembler's encoding of every valid opcode against PyBoy's opcode table | pass | |
 
-The test ROMs are not included; `python3 get_test_roms.py` downloads them.
+I also built it with a pokemon yellow rom and managed to play it with SameBoy version 1.0.5
+<img width="322" height="324" alt="image" src="https://github.com/user-attachments/assets/826e0e4d-cd2b-4afa-9cd5-f32ba7b3db4e" />
+<img width="318" height="320" alt="image" src="https://github.com/user-attachments/assets/538874f0-a37d-4ca0-a6a9-9c58a86f2adc" />
 
+The test ROMs are not included; `python3 get_test_roms.py` downloads them.
 ## Limits
 
 Not verified:
